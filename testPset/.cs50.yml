@@ -6,14 +6,12 @@ lab50:
 
 submit50:
   files: &files
-    - !exclude Greetings2.java
-    - !require Greetings.java
+    - !exclude solutions.py "*.java"
+    - !require hello.py
 
 check50:
   files: *files
   checks:
     hello world:
-      - run: javac Greetings.java
-      - run: java Greetings
         stdout: Hello, world!
         exit: 0
