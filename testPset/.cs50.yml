@@ -6,8 +6,8 @@ lab50:
 
 submit50:
   files: &files
-    - !exclude "helloSolution.java"
-    - !require hello.java
+    - !exclude Greetings2.java
+    - !require Greetings.java
 
 check50:
   files: *files
