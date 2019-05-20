@@ -1,7 +1,8 @@
-
 lab50:
-  file:
-    - test.py
+  window:
+    - editor
+    - readme
+    - terminal
 
 submit50:
   files: &files
