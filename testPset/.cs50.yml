@@ -10,8 +10,9 @@ submit50:
     - !require hello.py
 
 check50:
-  files: *files
-  checks:
+    files: *files
     hello world:
-        stdout: Hello, world!
-        exit: 0
+      - run: python3 hello.py # run python3 hello.py
+        stdout: Hello, world! # expect Hello, world! in stdout
+        exit: 0 # expect program to exit with exitcode 0
+
