@@ -6,8 +6,8 @@ lab50:
 
 submit50:
   files: &files
-    - !exclude "*"
-    - !require test.py
+    - !exclude "helloSolution.java"
+    - !require hello.java
 
 check50:
   files: *files
