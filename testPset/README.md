@@ -2,8 +2,7 @@ Java is an object oriented language (OOP). Java objects are part of so-called "J
 
 Let's go over the Hello world program, which simply prints "Hello, World!" to the screen.
 
-URL  for this lab: https://lab.cs50.io/koshaughnesseyRye/testPset/apcsp-2019-2020
-
+URL  for this lab: https://lab.cs50.io/koshaughnesseyRye/apcsp-2019-2020/master/testPset
 https://lab.cs50.io/:owner/:repo/:branch/:path
 
 {% video https://www.youtube.com/watch?v=oHg5SJYRHA0 %}
